@@ -1,0 +1,49 @@
+{
+    "editor.fontSize": 14,
+    "window.zoomLevel": 1.5,
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "git.enableSmartCommit": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.configuration-editing"
+    },
+    "git.path": "/usr/bin",
+    "git.autoRepositoryDetection": "subFolders",
+    "editor.tabSize": 2,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+          "semi": false,
+          "singleQuote": true
+        },
+        "js-beautify-html": {
+          "end_with_newline": false
+        }
+      },
+      "stylusSupremacy.insertSemicolons": false,
+      "stylusSupremacy.insertBraces": false,
+      "stylusSupremacy.insertNewLineAroundBlocks": false,
+      "workbench.activityBar.visible": true,
+      "workbench.statusBar.visible": true,
+      "editor.minimap.enabled": false,
+      "stylusSupremacy.insertNewLineAroundImports": false,
+      "terminal.integrated.cursorBlinking": true,
+      "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+      },
+      "workbench.iconTheme": "vscode-great-icons",
+      "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "files.associations": {
+        "*.vue": "vue"
+      },
+      "terminal.integrated.rendererType": "dom",
+      "explorer.confirmDragAndDrop": false,
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "workbench.colorTheme": "Dracula",
+      "sync.gist": "2f8b48b4f38b0a3dd1f4dd40e732e9b7"
+}
