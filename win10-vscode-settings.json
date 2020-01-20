@@ -1,0 +1,44 @@
+{
+  "workbench.iconTheme": "vscode-great-icons",
+  "terminal.integrated.shell.windows": "D:\\Git\\bin\\bash.exe",
+  "files.autoSave": "off",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "eslint.options": {
+    "plugins": [
+      "html"
+    ]
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.alwaysShowStatus": true,
+  "editor.wordWrap": "on",
+  "editor.fontSize": 16,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false,
+      "singleQuote": true
+    }
+  },
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Dracula",
+  "sync.gist": "44cd76763448a12de2ee45b6e5fe53a9",
+}
