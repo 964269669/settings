@@ -4,7 +4,7 @@
     "explorer.confirmDelete": false,
     "editor.wordWrap": "on",
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
+    "editor.formatOnPaste": false,
     "git.enableSmartCommit": true,
     "[html]": {
         "editor.defaultFormatter": "vscode.configuration-editing"
@@ -32,11 +32,11 @@
       "stylusSupremacy.insertNewLineAroundImports": false,
       "terminal.integrated.cursorBlinking": true,
       "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       },
       "workbench.iconTheme": "vscode-great-icons",
       "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "octref.vetur"
       },
       "files.associations": {
         "*.vue": "vue"
@@ -45,5 +45,31 @@
       "explorer.confirmDragAndDrop": false,
       "javascript.updateImportsOnFileMove.enabled": "always",
       "workbench.colorTheme": "Dracula",
-      "sync.gist": "2f8b48b4f38b0a3dd1f4dd40e732e9b7"
+      "sync.gist": "2f8b48b4f38b0a3dd1f4dd40e732e9b7",
+      "update.mode": "start",
+      "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+      },
+      "prettier.arrowParens": "avoid",
+      "prettier.trailingComma": "none",
+      "gitlens.views.repositories.files.layout": "tree",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+      },
+      "eslint.validate": [
+        "javascript",
+        "html",
+        "vue"
+      ],
+      "eslint.alwaysShowStatus": true,
+      "eslint.codeAction.showDocumentation": {
+      "enable": false
+      },
+      "eslint.options": {
+        "extensions": [
+          ".js",
+          ".vue"
+        ]
+      },
+      "debug.allowBreakpointsEverywhere": true
 }
