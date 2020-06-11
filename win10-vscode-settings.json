@@ -1,6 +1,8 @@
 {
   "workbench.iconTheme": "vscode-great-icons",
   "terminal.integrated.shell.windows": "D:\\Git\\bin\\bash.exe",
+  "editor.formatOnPaste": false,
+  "git.path": "D:\\Git\\bin",
   "files.autoSave": "off",
   "eslint.validate": [
     "javascript",
